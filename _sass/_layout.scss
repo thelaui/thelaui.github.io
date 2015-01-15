@@ -27,7 +27,9 @@
 .nav>li>a:hover {
     color: white;
     background-color: black !important;
-    border-radius: 50px 50px 50px 50px;
+    border-radius: 20px 5px 20px 5px;
+    -webkit-transition: background-color 1s, color 0.5s;
+    transition: background-color 1s, color 0.5s;
 }
 
 @media screen and (min-height: 520px) {
