@@ -1,0 +1,24 @@
+.post-list {
+  padding: 0;
+}
+
+.post-entry {
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.post-link {
+  color: black;
+  font-family: 'Nothing You Could Do';
+  font-size: 1.5em;
+  padding: 10px;
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
+}
+
+.post-link:hover {
+  color: white;
+  text-decoration: none;
+  border-radius: 20px 5px 20px 5px;
+  background-color: black;
+}

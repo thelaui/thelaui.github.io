@@ -4,16 +4,16 @@
       <a href="/index.html">Home</a>
     </li>
     <li class="page-scroll">
-      <a href="#blog">Blog</a>
+      <a {% if page.title == 'Blog' %} class="active" {% endif %} href="/blog.html">Blog</a>
     </li>
     <li class="page-scroll">
-      <a class="active" href="/projects.html">Projects</a>
+      <a {% if page.title == 'Projects' %} class="active" {% endif %} href="/projects.html">Projects</a>
     </li>
     <li class="page-scroll">
-      <a href="#media">Media</a>
+      <a {% if page.title == 'Media' %} class="active" {% endif %} href="/media.html">Media</a>
     </li>
     <li class="page-scroll">
-      <a href="#contact">Contact</a>
+      <a {% if page.title == 'Contact' %} class="active" {% endif %} href="/contact.html">Contact</a>
     </li>
   </ul>
 </nav>

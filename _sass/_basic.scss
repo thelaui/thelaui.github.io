@@ -1,6 +1,14 @@
 body {
-    background-image: url("/assets/images/bg.png");
+    background-image: url("/assets/images/bg.jpg");
 }
 
+.hbox {
+    width: 100%;
+    position: absolute;
+}
 
-
+.overlay {
+    box-shadow: 0px 1px 50px 1px black;
+    background-color: white;
+    width: 100%;
+}

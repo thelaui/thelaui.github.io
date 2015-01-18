@@ -12,15 +12,9 @@
     padding-bottom: 5px;
 }
 
-.overlay {
-    box-shadow: 0px 1px 50px 1px black;
-    background-color: white;
-}
-
 .active {
     color: white !important;
     background-color: black;
-    border-radius: 20px 5px 20px 5px;
 }
 
 .nav>li>a {
@@ -37,6 +31,10 @@
 
 @media screen and (min-width: 768px) {
     .nav>li>a:hover {
+        border-radius: 20px 5px 20px 5px;
+    }
+
+    .active {
         border-radius: 20px 5px 20px 5px;
     }
 }
