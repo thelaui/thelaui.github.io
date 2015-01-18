@@ -10,13 +10,13 @@ layout: title
     <nav class="navbar navbar-custom" role="navigation">
       <ul class="nav navbar-nav center-block text-center">
         <li class="page-scroll">
-          <a href="#home">Home</a>
+          <a href="/index.html">Home</a>
         </li>
         <li class="page-scroll">
           <a href="#blog">Blog</a>
         </li>
         <li class="page-scroll">
-          <a href="#projects">Projects</a>
+          <a href="/projects.html">Projects</a>
         </li>
         <li class="page-scroll">
           <a href="#media">Media</a>

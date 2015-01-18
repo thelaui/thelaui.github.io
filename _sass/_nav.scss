@@ -1,23 +1,26 @@
-body {
-    background-image: url("/assets/images/title.jpg");
+.navbar {
+    border: none !important;
+    border-radius: 0 !important;
+    margin-bottom: 0 !important;
 }
 
-#name-big {
-    font-family: 'Nothing You Could Do', cursive;
-    color: black;
-    font-size: 7em;
-    margin-top: 150px;
-    margin-bottom: 50px;
-}
-
-.hbox{
-    width: 100%;
-    position: absolute;
-}
 
 .navbar-custom {
     font-family: 'Nothing You Could Do';
     font-size: 1.5em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.overlay {
+    box-shadow: 0px 1px 50px 1px black;
+    background-color: white;
+}
+
+.active {
+    color: white !important;
+    background-color: black;
+    border-radius: 20px 5px 20px 5px;
 }
 
 .nav>li>a {
