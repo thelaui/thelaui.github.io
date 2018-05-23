@@ -3,7 +3,7 @@ layout: title
 ---
 
 <div class="hbox">
-  <div class="container text-center">
+  <!-- <div class="container text-center">
 
     <div id="name-big">Felix Lauer</div>
 
@@ -27,7 +27,9 @@ layout: title
       </ul>
     </nav>
 
-  </div>
+  </div> -->
+
+  This site is under construction.
 </div>
 
 
